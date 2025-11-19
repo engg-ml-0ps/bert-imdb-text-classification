@@ -1,6 +1,6 @@
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-model_name = "textattack/bert-base-uncased-imdb"
+model_name = "distilbert-base-uncased-finetuned-sst-2-english"
 
 labels = {0: "NEGATIVE", 1: "POSITIVE"}
 
